@@ -2,8 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
     return (
-        <main className="min-h-screen bg-gray-50">
-
+        <main className="min-h-screen">
             <section className="max-w-5xl mx-auto px-6 py-20 text-center mt-24">
 
                 <h1 className="text-3xl md:text-5xl font-bold text-blue-600 mb-8">

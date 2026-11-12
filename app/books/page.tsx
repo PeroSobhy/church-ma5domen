@@ -15,7 +15,7 @@ export default function Home() {
     ];
 
     return (
-        <main className="min-h-screen bg-gray-50">
+        <main className="min-h-screen">
 
             {/* Page Content */}
             <section className="max-w-7xl mx-auto px-6 py-20">

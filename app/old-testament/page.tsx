@@ -1,6 +1,6 @@
 export default function OldTestament() {
     return (
-        <main dir="rtl" className="min-h-screen bg-gray-50">
+        <main dir="rtl" className="min-h-screen">
             <section className="max-w-5xl mx-auto px-6 py-20 text-center">
 
                 <h1 className="text-3xl md:text-5xl font-bold text-blue-600 mb-8">

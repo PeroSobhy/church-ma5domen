@@ -8,9 +8,7 @@ export default function Navbar() {
 
     const navLinks = [
         { name: "Home", href: "/" },
-        { name: "About", href: "/about" },
-        { name: "Services", href: "/services" },
-        { name: "Contact", href: "/contact" },
+        { name: "5odam", href: "/5odam" },
     ];
 
     return (
@@ -19,7 +17,7 @@ export default function Navbar() {
 
                 {/* Logo */}
                 <Link href="/" className="text-2xl font-bold text-blue-600">
-                    St.Mary Ma5domen
+                    St.Mary Church
                 </Link>
 
                 {/* Desktop Navigation */}

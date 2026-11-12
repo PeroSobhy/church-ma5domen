@@ -1,5 +1,5 @@
-import { getBooks } from "../../lib/bible.ts";
-import ChapterList from "../../components/ChapterList.tsx";
+import { getBooks } from "../../lib/bible";
+import ChapterList from "../../components/ChapterList";
 import { notFound } from "next/navigation";
 
 interface Props {

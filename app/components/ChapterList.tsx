@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BibleBook } from "../lib/bible.ts";
+import { BibleBook } from "../lib/bible";
 
 interface ChapterListProps {
     book: BibleBook;

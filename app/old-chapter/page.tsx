@@ -1,5 +1,5 @@
-import { getBooks } from "../lib/bible.ts";
-import BookList from "../components/BooksList.tsx";
+import { getBooks } from "../lib/bible";
+import BookList from "../components/BooksList";
 
 export default async function OldChapterPage() {
     const books = await getBooks();

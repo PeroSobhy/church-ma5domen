@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { Amiri, Noto_Naskh_Arabic } from "next/font/google";
 import { BibleBook } from "../lib/bible";

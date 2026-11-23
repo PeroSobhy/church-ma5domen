@@ -1,3 +1,5 @@
+"use client";
+
 import { Amiri, Noto_Naskh_Arabic } from "next/font/google";
 
 const heading = Amiri({

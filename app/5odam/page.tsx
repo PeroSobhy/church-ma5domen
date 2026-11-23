@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Amiri, Noto_Naskh_Arabic } from "next/font/google";
 

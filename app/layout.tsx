@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
@@ -17,6 +17,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
     title: "St.Mary Church",
     description: "St.Mary Church",
+    appleWebApp: {
+        capable: true,
+        statusBarStyle: "default",
+        title: "St.Mary",
+    },
+};
+
+export const viewport: Viewport = {
+    themeColor: "#ffff",
 };
 
 export default function RootLayout({

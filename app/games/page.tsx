@@ -20,14 +20,14 @@ const games: Game[] = [
         href: "https://ebraam-sobhy.itch.io/whoami",
     },
     {
-        name: "اسم اللعبة الثانية",
-        image: "/games/game-2.jpg",
-        href: "https://yourname.itch.io/game-two",
+        name: "لعبة الذاكرة",
+        image: "/memorygame.jpeg",
+        href: "https://ebraam-sobhy.itch.io/memorygame",
     },
     {
-        name: "اسم اللعبة الثالثة",
-        image: "/games/game-3.jpg",
-        href: "https://yourname.itch.io/game-three",
+        name: "تنس الطاولة",
+        image: "/pingpong.png",
+        href: "https://ebraam-sobhy.itch.io/pong-game",
     },
 ];
 

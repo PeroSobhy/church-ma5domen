@@ -29,6 +29,11 @@ const games: Game[] = [
         image: "/pingpong.png",
         href: "https://ebraam-sobhy.itch.io/pong-game",
     },
+    {
+        name: "لعبة ألغاز",
+        image: "/puzzle.jpeg",
+        href: "https://ebraam-sobhy.itch.io/puzzle",
+    },
 ];
 
 export default function GamesPage() {

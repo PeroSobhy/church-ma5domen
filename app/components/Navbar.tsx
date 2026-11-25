@@ -32,8 +32,8 @@ function Cross({ className = "" }: { className?: string }) {
 }
 
 const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "5odam", href: "/5odam" },
+    { name: "يسوع", href: "/" },
+    { name: "خدام", href: "/5odam" },
 ];
 
 export default function Navbar() {
@@ -70,8 +70,8 @@ export default function Navbar() {
                             href={link.href}
                             aria-current={isActive(link.href) ? "page" : undefined}
                             className={`${heading.className} text-xl py-1 border-b-2 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#16295A] ${isActive(link.href)
-                                    ? "border-[#C9A227] text-[#7A1F2B] font-bold"
-                                    : "border-transparent text-[#4A3B2C] hover:text-[#7A1F2B]"
+                                ? "border-[#C9A227] text-[#7A1F2B] font-bold"
+                                : "border-transparent text-[#4A3B2C] hover:text-[#7A1F2B]"
                                 }`}
                         >
                             {link.name}
@@ -108,8 +108,8 @@ export default function Navbar() {
                             onClick={() => setIsOpen(false)}
                             aria-current={isActive(link.href) ? "page" : undefined}
                             className={`${heading.className} rounded-md py-2 text-center text-xl transition-colors ${isActive(link.href)
-                                    ? "bg-[#7A1F2B]/10 text-[#7A1F2B] font-bold"
-                                    : "text-[#4A3B2C] hover:text-[#7A1F2B]"
+                                ? "bg-[#7A1F2B]/10 text-[#7A1F2B] font-bold"
+                                : "text-[#4A3B2C] hover:text-[#7A1F2B]"
                                 }`}
                         >
                             {link.name}

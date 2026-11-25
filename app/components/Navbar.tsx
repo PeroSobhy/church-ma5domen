@@ -34,6 +34,7 @@ function Cross({ className = "" }: { className?: string }) {
 const navLinks = [
     { name: "يسوع", href: "/" },
     { name: "خدام", href: "/5odam" },
+    { name: "ألعاب", href: "/games" },
 ];
 
 export default function Navbar() {
